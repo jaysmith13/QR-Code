@@ -1,3 +1,7 @@
 const googleAPIURL = 'https://chart.googleapis.com/chart?cht=qr';
 
-module.exports = {}
+module.exports = {
+    generateQR(data, height, width, color){
+        if(!data)
+    }
+}
