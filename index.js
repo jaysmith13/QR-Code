@@ -15,3 +15,20 @@ for (const file of commandFiles){
 
     client.commands.set(command.data.name, command);
 }
+
+client.once('ready', ()=> {
+    console.log('QR BOT has been activated');
+});
+
+client.on('interactionCreate', async interaction => {
+    if(!interaction.isCommand()) return;
+
+    const command = client.commands.get(interaction.commandName);
+
+    if(!command) return;
+
+    try {
+        await command.execute
+    }
+}
+
