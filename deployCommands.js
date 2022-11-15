@@ -6,5 +6,5 @@ const clientId = process.env['CLIENT_ID'];
 const guildId = process.env['GUILD_ID'];
 
 const {SlashCommandBuilder} = require('@discordjs/builders');
-const {REST} = ;
-const {Routes} = ;
+const {REST} = require('@discordjs/rest');
+const {Routes} =  require('discord-api-types/v9');
