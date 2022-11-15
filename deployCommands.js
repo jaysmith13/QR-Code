@@ -1,8 +1,8 @@
 require('dotenv').config();
 
 const fs = require('fs');
-const token = ;
-const clientId = ;
+const token = process.env['QR_BOT_TOKEN'];
+const clientId = process.env['CLIENT_ID'];
 const guildId = ;
 
 const {} = ;
